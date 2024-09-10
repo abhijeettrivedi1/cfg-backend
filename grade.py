@@ -4,6 +4,7 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 
 nltk.download('punkt')
+nltk.download('punkt_tab')
 nltk.download('wordnet')
 try:
     nltk.download('omw-1.4')
